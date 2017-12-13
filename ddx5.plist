@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>AudioAllowAACPass</key>
+		<true />
+		<key>AudioAllowAC3Pass</key>
+		<true />
+		<key>AudioAllowDTSHDPass</key>
+		<true />
+		<key>AudioAllowDTSPass</key>
+		<true />
+		<key>AudioAllowMP3Pass</key>
+		<true />
+		<key>AudioEncoderFallback</key>
+		<string>AC3</string>
+		<key>AudioLanguageList</key>
+		<array>
+			<string>und</string>
+		</array>
+		<key>AudioList</key>
+		<array>
+			<dict>
+				<key>AudioBitrate</key>
+				<string>160</string>
+				<key>AudioEncoder</key>
+				<string>AAC (avcodec)</string>
+				<key>AudioMixdown</key>
+				<string>Dolby Pro Logic II</string>
+				<key>AudioSamplerate</key>
+				<string>source</string>
+				<key>AudioTrack</key>
+				<integer>1</integer>
+				<key>AudioTrackDRCSlider</key>
+				<real>0</real>
+				<key>AudioTrackGainSlider</key>
+				<real>0</real>
+				<key>AudioTrackQuality</key>
+				<real>-1</real>
+				<key>AudioTrackQualityEnable</key>
+				<false />
+			</dict>
+		</array>
+		<key>AudioSecondaryEncoderMode</key>
+		<true />
+		<key>AudioTrackSelectionBehavior</key>
+		<string>first</string>
+		<key>ChapterMarkers</key>
+		<true />
+		<key>Default</key>
+		<false />
+		<key>FileFormat</key>
+		<string>MPEG-4 (avformat)</string>
+		<key>Folder</key>
+		<false />
+		<key>Mp4HttpOptimize</key>
+		<false />
+		<key>Mp4LargeFile</key>
+		<false />
+		<key>Mp4iPodCompatible</key>
+		<false />
+		<key>PictureAutoCrop</key>
+		<true />
+		<key>PictureBottomCrop</key>
+		<real>58</real>
+		<key>PictureDeblock</key>
+		<integer>0</integer>
+		<key>PictureDecomb</key>
+		<integer>0</integer>
+		<key>PictureDecombCustom</key>
+		<string></string>
+		<key>PictureDecombDeinterlace</key>
+		<true />
+		<key>PictureDeinterlace</key>
+		<integer>0</integer>
+		<key>PictureDeinterlaceCustom</key>
+		<string></string>
+		<key>PictureDenoiseCustom</key>
+		<string></string>
+		<key>PictureDenoiseFilter</key>
+		<string>off</string>
+		<key>PictureDenoisePreset</key>
+		<string>medium</string>
+		<key>PictureDenoiseTune</key>
+		<string>none</string>
+		<key>PictureDetelecine</key>
+		<integer>0</integer>
+		<key>PictureDetelecineCustom</key>
+		<string></string>
+		<key>PictureHeight</key>
+		<real>0</real>
+		<key>PictureKeepRatio</key>
+		<true />
+		<key>PictureLeftCrop</key>
+		<real>0</real>
+		<key>PictureLooseCrop</key>
+		<false />
+		<key>PictureModulus</key>
+		<string>2</string>
+		<key>PicturePAR</key>
+		<string>0</string>
+		<key>PicturePARHeight</key>
+		<real>1</real>
+		<key>PicturePARWidth</key>
+		<real>1</real>
+		<key>PictureRightCrop</key>
+		<real>0</real>
+		<key>PictureTopCrop</key>
+		<real>60</real>
+		<key>PictureWidth</key>
+		<real>640</real>
+		<key>PresetBuildNumber</key>
+		<integer>2016021200</integer>
+		<key>PresetDescription</key>
+		<string>HandBrake preset compatible with Kenwood DDX5 series.</string>
+		<key>PresetName</key>
+		<string>DDX5</string>
+		<key>SubtitleAddCC</key>
+		<false />
+		<key>SubtitleAddForeignAudioSearch</key>
+		<false />
+		<key>SubtitleAddForeignAudioSubtitle</key>
+		<false />
+		<key>SubtitleLanguageList</key>
+		<array>
+			<string>und</string>
+		</array>
+		<key>SubtitleTrackSelectionBehavior</key>
+		<string>none</string>
+		<key>Type</key>
+		<integer>1</integer>
+		<key>UsesPictureFilters</key>
+		<integer>1</integer>
+		<key>UsesPictureSettings</key>
+		<integer>1</integer>
+		<key>VideoAvgBitrate</key>
+		<real>2500</real>
+		<key>VideoEncoder</key>
+		<string>H.264 (x264)</string>
+		<key>VideoFramerate</key>
+		<string>30</string>
+		<key>VideoFramerateMode</key>
+		<string>pfr</string>
+		<key>VideoGrayScale</key>
+		<false />
+		<key>VideoLevel</key>
+		<string>1.3</string>
+		<key>VideoOptionExtra</key>
+		<string></string>
+		<key>VideoPreset</key>
+		<string>medium</string>
+		<key>VideoProfile</key>
+		<string>baseline</string>
+		<key>VideoQualitySlider</key>
+		<integer>22</integer>
+		<key>VideoQualityType</key>
+		<integer>2</integer>
+		<key>VideoTune</key>
+		<string>none</string>
+		<key>VideoTurboTwoPass</key>
+		<false />
+		<key>VideoTwoPass</key>
+		<false />
+		<key>x264Option</key>
+		<string>level=1.3:ref=2:bframes=0:cabac=0:8x8dct=0:weightp=0:vbv-bufsize=2000:vbv-maxrate=768</string>
+		<key>x264UseAdvancedOptions</key>
+		<false />
+	</dict>
+</array>
+</plist>
